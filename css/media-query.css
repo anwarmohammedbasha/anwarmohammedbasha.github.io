@@ -1,0 +1,511 @@
+/* Big tablets to smaller laptop screens*/
+@media only screen and (max-width:1400px) {
+	html,
+	body {
+		font-size:14px;
+	}
+
+    .sec-head {
+        padding-top: 50px;
+        padding-bottom:50px;
+        text-align: center;
+        font-size: 220%;
+    }
+
+    /* intro */
+
+    .profile {
+        width: 80%;
+    }
+
+    .intro-box {
+        margin: 7% 0%;
+        padding: 50px;
+    }
+
+    .intro-box:first-child {
+        padding-left: 8%;
+    }
+
+    .intro-box:last-child {
+        margin-left: -8%;
+        padding-top: 14%;
+        padding-right: 0%;
+    }
+
+
+    /* skill */
+
+    .icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .ss-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .bx {
+        height: 380px;
+        width:100%;
+        margin-top: 0%;
+    }
+
+    .sk-bx {
+        padding-left: 0%;
+    }
+
+    #skill-section {
+        padding-bottom: 5%;
+    }  
+
+    .s-icon {
+        height: 40px;
+        width: 40px;
+        margin-top: 10px;
+        margin-bottom: -10px;
+    }
+
+    .skill-head {
+        font-size:140%;
+    }
+
+    .skill-box li {
+        font-size: 130%;
+        line-height: 180%;
+    }
+
+    .skill-box ul {
+        margin-top: -8%;
+    }
+
+        /* project */
+
+    .proj1-img {
+        height: 80%;
+    }
+
+    .proj-box:first-child {
+        padding-left: 6%;
+    }
+    
+    .proj-box:last-child {
+        margin-left: -8%;
+        padding-right: 1%;
+        padding-top: 7%;
+        padding-bottom: -15%;
+    }
+
+    .proj-box {
+        padding: 50px;
+        margin-top: -3%;
+        margin-bottom: -2%;
+    }
+
+    .para {
+        font-size: 120%;
+        margin-left: 27%;
+        padding-top: -20%;
+        margin-top: 0%;
+        margin-bottom: 2%;
+    }
+
+    .para p {
+    text-align: left;
+    }
+
+    /* contact*/
+
+    .cont-box {
+        padding-top: 2%;
+    }
+
+    .c-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    /*footer */
+
+    #footer h1 {
+        font-size: 150%;
+    }
+
+}
+
+
+/* Smaller tablets to larger tablet screens*/
+@media only screen and (max-width:1000px) {
+	html,
+	body {
+		font-size:12px;
+	}
+
+    .sec-head {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        font-size: 200%;
+    }
+
+
+    /* nav */
+
+    .menu {
+        padding-left: 35%;
+    }
+
+    /* intro */
+
+    .profile {
+        width: 90%;
+    }
+
+    .intro-box {
+        margin: 10% 0%;
+    }
+
+    .intro-box:last-child {
+        margin-left: -8%;
+        padding-top: 13%;
+        padding-right: 0%;
+    }
+
+    /* skill*/
+
+    .bx {
+        height: 370px;
+        width:100%;
+        margin-top: 0%;
+    }
+
+    .s-icon {
+        height: 40px;
+        width: 40px;
+        margin-top: 12px;
+        margin-bottom: -5px;
+    }
+
+    .skill-head {
+        font-size:150%;
+    }
+
+    .sk-head-box {
+        margin-bottom: 20%;
+    }
+    
+
+    .skill-box li {
+        font-size: 140%;
+        line-height: 200%;
+    }
+
+    .skill-box ul {
+        margin-top: -13%;
+    }
+
+   /* project */
+
+    .proj1-img {
+        width: 80%;
+    }
+    
+    .proj-box:last-child {
+        margin-left: -12%;
+        padding-right: 0%;        
+    }
+
+    .para {
+        margin-left: 22%;
+        margin-bottom: 5%;
+    }
+
+    /* contact*/
+
+    .c-icon {
+        width: 25px;
+        height: 25px;
+    }    
+
+    .cont-box ul {
+        line-height: 300%;
+        font-size: 140%;
+    }
+
+    #contact-section {
+        padding-bottom: 12%;
+    }
+
+
+}
+
+/* larger phones  to smaller tablet screens*/
+@media only screen and (max-width:800px) {
+	html,
+	body {
+		font-size:10px;
+	}
+
+    .bx {
+        height: 340px;
+        width:100%;
+    }
+
+    .icon {
+        width: 15px;
+        height: 15px;
+    }
+
+    .s-icon {
+        width: 30px;
+        height: 30px;
+        margin-bottom: 0%;
+    }
+
+    .c-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+}
+
+/* larger phones  to smaller tablet screens*/
+@media only screen and (max-width:700px) {
+	html,
+	body {
+		font-size:10px;
+	}
+
+    .sec-head {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        font-size: 200%;
+        text-decoration: underline;
+    }
+
+    /* nav */
+
+    .menu {
+        padding-left: 30%;
+    }
+
+    /* skill*/
+
+    .bx {
+        height: 320px;
+        width: 80%;
+        border-radius: 5%;
+        margin: 2% 7%;
+        padding: 0% 0%;
+    }
+
+    .bx:first-child {
+        margin-left: 15%
+    }
+
+    .span_1_of_4 {
+        width: 47.6%; 
+    }
+
+    .bx3 {
+        margin-left: 0%;
+    }
+
+
+    .skill-head {
+        font-size:180%;
+    }
+
+    .skill-box li {
+        font-size: 150%;
+    }
+
+    /* project */
+
+    .proj1-img {
+        height: 100%;
+        padding-top: 0%;
+        border-radius: 10%;
+    }
+
+    .proj-box:last-child {
+        margin-left: -12%;
+        padding-right: 0%;        
+    }
+
+    .para {
+        margin-left: 18%;
+        margin-bottom: 5%;
+    }
+
+    /* contact*/
+
+    .c-icon {
+        width: 20px;
+        height: 20px;
+    }    
+
+    .cont-box ul {
+        line-height: 300%;
+        font-size: 120%;
+    }
+
+    #contact-section {
+        padding-bottom: 12%;
+    }
+
+
+}
+
+
+@media only screen and (max-width:700px) {
+    html,
+	body {
+		font-size:10px;
+	}
+
+    .link:visited,
+    .link:link {
+        background-color: rgb(240, 240, 240);
+        text-decoration: none;
+        font-size: 90%;
+        font-weight: bold;
+        font-family:'Work Sans';
+        color:#555;   
+        padding:8px 25px;
+        border-radius: 30px;
+    }
+
+    .link:hover, 
+    .link:active {
+        background-color: rgb(230, 230, 230);
+        color: #000;
+    }
+
+    .para {
+        font-size: 100%;
+    }
+
+    .cont-box ul {
+        line-height: 250%;
+        font-size: 100%;
+    }
+
+}
+
+
+@media only screen and (max-width:500px) {
+	html,
+	body {
+		font-size:10px;
+	}
+
+    .menu {
+        padding-left: 20%;
+    }
+
+    .profile {
+        width: 80%;
+    }
+
+    .intro-box:first-child {
+        padding-top: 3%;
+        padding-left: 20%;
+    }
+
+    .intro-box:last-child {
+        margin-top: -35px;
+        padding-top: 0%;
+        padding-left: 25%;
+        padding-bottom: 5%;
+    }
+
+    .bx {
+        width: 90%;
+    }
+
+    .bx:first-child {
+        margin-left: 9%
+    }
+
+    .span_1_of_2 {
+        width: 100%;
+    }
+
+    .proj1-img {
+        width: 80%;
+    }
+
+    .proj-box:first-child {
+        margin-top: -20px;
+        padding-top: 0%;
+        padding-left: 20%;
+    }
+
+    .proj-box:last-child {
+        padding-top: 0%;
+        padding-left: 25%;
+        padding-bottom: 5%;
+    }
+
+    .para {
+        margin-left: 12%;
+    }
+
+    .bx2 p {
+        padding-bottom: 5%;
+    }
+
+    #project-section {
+        margin-bottom: 0%;
+    }
+
+    .cont-box ul {
+        font-size: 120%;
+    }
+
+
+}
+
+
+@media only screen and (max-width:400px) {
+	html,
+	body {
+		font-size:10px;
+	}
+
+    .menu {
+        padding-left: 10%;
+    }
+
+    .bx {
+        width: 90%;
+    }
+
+    .s-icon {
+        width: 0px;
+        height: 0px;
+    }
+
+    .skill-box ul {
+        margin-left: -12%;
+    }
+
+    .para {
+        padding-top: 2%;
+        font-size: 90%;
+    }
+
+    .cont-box ul {
+        font-size: 130%;
+    }
+
+    .cont-box:first-child {
+        margin-top: 0%;
+        padding-left: 20%;
+    }
+
+    #footer {
+        padding-left: 40%;
+    }
+}
