@@ -11,138 +11,142 @@
     <link rel="stylesheet" href="css/media-query.css">
 </head>
 <body>
-    <nav class="menu-bar">
-        <div class="menu">
-            <ul>
-                <li><a href="#intro-section">Home</a></li>
-                <li><a href="#skill-section">Skills</a></li>
-                <li><a href="#project-section">Project</a></li>
-                <li><a href="#contact-section">Contact</a></li>
-            </ul>
+<nav id="navigation-bar">
+    <ul>
+        <li><a href="#about-section">Home</a></li>
+        <li><a href="#skill-section">Skills</a></li>
+        <li><a href="#project-section">Projects</a></li>
+        <li><a href="#contact-section">Contact</a></li>
+    </ul>
+</nav>    
+<section id="about-section">
+    <div class="row">
+        <div class="col span_1_of_2 about-col">
+            <img src="images/profile.png" alt="" class="profile-pic">
         </div>
-    </nav>
-
-
-    <section id="intro-section">
-        <div class="row">
-            <div class="col span_1_of_2 intro-box">
-                <img src="images/profile.png" alt="" class="profile">
-            </div>
-            <div class="col span_1_of_2 intro-box">
-                <h1 class="intro-heading">I'm Anwar</h1>
-                <p class="intro-para">I am seeking a career as a Data Scientist, I have over 3 years of experience in Management and
-                1 year of experience in BI Analyst and I am currently pursuing a master's degree in data science. </p>
-                <a href="https://www.linkedin.com/in/anwarmohamedbasha/" target="_blank" class="link">LinkedIn</a> <a href  ="documnets/curriculum_vitae.pdf" target="_blank" class="link">Curriculum Vitae</a>
-            </div>
+        <div class="col span_1_of_2 about-col">
+            <h1 class="about-heading">I'm Anwar</h1>
+            <p class="about-para">I am seeking a career as a Data Scientist, I have over 3 years of experience in Management and 1 year of experience in BI Analyst and I am currently pursuing a master's degree in data science.</p>
+            <a href="https://www.linkedin.com/in/anwarmohamedbasha/" target="_blank" class="about-btn">LinkedIn</a>
+            <a href="documnets/curriculum_vitae.pdf" target="_blank" class="about-btn">Curriculum Vitae</a>
         </div>
-    </section>
+    </div>
+</section>
 <section id="skill-section">
-    <h1 class="sec-head">Skills</h1>
-    <div class="row sk-bx">    
-            <div class="col span_1_of_4 skill-box bx1">
-                <div class="bx bx1">
-                    <img src="images/icon/big-data.png" class="s-icon">
-                    <div class="sk-head-box">
-                    <h1 class="skill-head">Big Data</h1></div>
+    <h1 class="section-head">Skills</h1>
+    <div class="row skill-content-space">    
+        <div class="col span_1_of_4 skill-col">
+            <div class="skill-box">
+                <div class="skill-head-space">
+                <img src="images/icon/big-data.png" class="skill-head-icon">
+                <h1 class="skill-head">Big Data</h1>
+                </div>
+                <div class="skill-set-space">
                     <ul>
-                        <li><img src="images/icon/hadoop.png" class="ss-icon" > Hadoop</li>
-                        <li><img src="images/icon/spark.svg" class="ss-icon">  Spark</li>
+                        <li><img src="images/icon/hadoop.png" class="skill-icon" > Hadoop</li>
+                        <li><img src="images/icon/spark.svg" class="skill-icon">  Spark</li>
                     </ul>
                 </div>
             </div>
-            <div class="col span_1_of_4 skill-box bx2">
-                <div class="bx bx2">
-                    <img src="images/icon/data-analytics.png" class="s-icon">
-                    <div class="sk-head-box">
-                    <h1 class="skill-head">Data Analysis</h1></div>
-                    <ul>
-                        <li><img src="images/icon/pandas.png" class="ss-icon"> Pandas</li>
-                        <li><img src="images/icon/python.png" class="ss-icon"> Numpy</li>
-                        <li><img src="images/icon/seaborn.png" class="ss-icon"> Seaborn</li>
-                        <li><img src="images/icon/matplotlib.png" class="ss-icon"> Matplotlib</li>
-                        <li><img src="images/icon/excel.png" class="ss-icon"> Excel</li>
-                        <li><img src="images/icon/tableau.png" class="ss-icon"> Tableau</li>
-                    </ul>
+        </div>
+        <div class="col span_1_of_4 skill-col">
+            <div class="skill-box">
+                <div class="skill-head-space">
+                    <img src="images/icon/data-analytics.png" class="skill-head-icon">
+                    <h1 class="skill-head">Data Analysis</h1>
                 </div>
-            </div>    
-            <div class="col span_1_of_4 skill-box bx3">
-                <div class="bx bx3">
-                    <img src="images/icon/machine-learning.png" class="s-icon">
-                    <div class="sk-head-box">
-                    <h1 class="skill-head">Model Development</h1></div>
+                <div class="skill-set-space">
                     <ul>
-                        <li><img src="images/icon/sklearn.svg" class="ss-icon"> Sklearn</li>
-                        <li><img src="images/icon/tensorflow.svg" class="ss-icon"> Tensorflow</li>
+                        <li><img src="images/icon/pandas.png" class="skill-icon"> Pandas</li>
+                        <li><img src="images/icon/python.png" class="skill-icon"> Numpy</li>
+                        <li><img src="images/icon/seaborn.png" class="skill-icon"> Seaborn</li>
+                        <li><img src="images/icon/matplotlib.png" class="skill-icon"> Matplotlib</li>
+                        <li><img src="images/icon/excel.png" class="skill-icon"> Excel</li>
+                        <li><img src="images/icon/tableau.png" class="skill-icon"> Tableau</li>
                     </ul>
                 </div>
             </div>
-            <div class="col span_1_of_4 skill-box bx4">
-                <div class="bx bx4">
-                    <img src="images/icon/programming.png" class="s-icon">
-                    <div class="sk-head-box">
-                    <h1 class="skill-head">Web &nbsp; Development</h1></div>
+        </div>    
+        <div class="col span_1_of_4 skill-col">
+            <div class="skill-box">
+                <div class="skill-head-space">
+                    <img src="images/icon/machine-learning.png" class="skill-head-icon">
+                    <h1 class="skill-head">Model Development</h1>
+                </div>
+                <div class="skill-set-space">
                     <ul>
-                        <li><img src="images/icon/html.png" class="ss-icon"> HTML</li>
-                        <li><img src="images/icon/css.png" class="ss-icon"> CSS</li>
-                        <li><img src="images/icon/javascript.png" class="ss-icon"> JavaScript</li>
-                        <li><img src="images/icon/photoshop.png" class="ss-icon"> Photoshop</li>
-                        <li><img src="images/icon/mysql.png" class="ss-icon"> MySQL</li>
-                        <li><img src="images/icon/django.png" class="ss-icon"> django</li>
+                        <li><img src="images/icon/sklearn.svg" class="skill-icon"> Sklearn</li>
+                        <li><img src="images/icon/tensorflow.svg" class="skill-icon"> Tensorflow</li>
                     </ul>
                 </div>
-            </div> 
+            </div>
+        </div>
+        <div class="col span_1_of_4 skill-col">
+            <div class="skill-box">
+                <div class="skill-head-space">
+                    <img src="images/icon/programming.png" class="skill-head-icon">
+                    <h1 class="skill-head">Web-Development</h1>
+                </div>
+                <div class="skill-set-space">
+                    <ul>
+                        <li><img src="images/icon/html.png" class="skill-icon"> HTML</li>
+                        <li><img src="images/icon/css.png" class="skill-icon"> CSS</li>
+                        <li><img src="images/icon/javascript.png" class="skill-icon"> JavaScript</li>
+                        <li><img src="images/icon/photoshop.png" class="skill-icon"> Photoshop</li>
+                        <li><img src="images/icon/mysql.png" class="skill-icon"> MySQL</li>
+                        <li><img src="images/icon/django.png" class="skill-icon"> django</li>
+                    </ul>
+                </div>
+            </div>
+        </div> 
     </div>   
 </section>
-
 <section id="project-section">
-    <h1 class="sec-head">Project</h1>
-    <div class="row">
-            <div class="col span_1_of_2 proj-box bx1">
-                <img src="images/project-1.png" alt="" class="proj1-img">
-            </div>        
-            <div class="col span_1_of_2 proj-box bx2">
-                <h1 class="proj-heading">Stroke Prediction </h1>
-                <p class="proj-para">According to the World Health Organization (WHO) stroke is the 2nd leading cause of death globally, responsible for approximately 11% of total deaths. <br>
-                Based on input parameters such as gender, age, various diseases, and smoking status, this model is used to determine whether a patient is likely to have a stroke.</p>
-                <a href="https://share.streamlit.io/anwarmohammedbasha/stroke_prediction/main/app.py" target="_blank" class="link">See project</a>
-                <a href="https://github.com/anwarmohammedbasha/stroke-prediction" target="_blank" class="link">Source Code</a>
-            </div>      
+    <h1 class="section-head">Project</h1>
+    <div class="row project-content-space">
+        <div class="col span_1_of_2 project-col">
+            <div class="project-column-1">
+                <img src="images/project-1.png" alt="" class="project-img">
+            </div>
+        </div>        
+        <div class="col span_1_of_2 project-col">
+            <div class="project-column-2">
+                <h1 class="project-heading">Stroke Prediction </h1>
+                <p class="project-para">According to the World Health Organization (WHO) stroke is the 2nd leading cause of death globally, responsible for approximately 11% of total deaths.
+                <br> Based on input parameters such as gender, age, various diseases, and smoking status, this model is used to determine whether a patient is likely to have a stroke.</p>
+                <a href="https://share.streamlit.io/anwarmohammedbasha/stroke_prediction/main/app.py" target="_blank" class="project-btn">See project</a>
+                <a href="https://github.com/anwarmohammedbasha/stroke-prediction" target="_blank" class="project-btn">Source Code</a>
+            </div>    
+        </div>      
     </div>
-    <div class="para">
-    <p class="">Check out my other projects on 
-    <a href="https://www.kaggle.com/anwarmohamedbasha" target="_blank" class="kaggle">
-    <img src="images/icon/kaggle.png" class="icon">Kaggle</a>
-    and 
-    <a href="https://github.com/anwarmohammedbasha" target="_blank" class="kaggle">
-    <img src="images/icon/github.png" class="icon">Github.</a></p></div>
-    
+    <div class="project-extra-para">
+        <p class="">Check out my other projects on
+            <a href="https://www.kaggle.com/anwarmohamedbasha" target="_blank">
+                <img src="images/icon/kaggle.png" class="project-icon">Kaggle</a> 
+                and
+            <a href="https://github.com/anwarmohammedbasha" target="_blank" class="project-link">
+                <img src="images/icon/github.png" class="project-icon">Github.</a>
+            </p>
+    </div> 
 </section>
 <section id="contact-section">
-    <h1 class="sec-head">Contact</h1>
+    <h1 class="section-head">Contact</h1>
     <div class="row">      
-            <div class="col span_1_of_2 cont-box">
-                <ul>
-                    <li><img src="images/icon/map.png" class="c-icon">Chennai, Tamil Nadu</li>
-                    <li><a href="https://www.linkedin.com/in/anwarmohamedbasha/" target="_blank" class="linkdin-con"><img src="images/icon/linkedin.png" class="c-icon">anwarmohamedbasha</a></li>
-                    <li><img src="images/icon/gmail.png" class="c-icon">anwarmohamedbasha@gmail.com</li>
-                    <li><img src="images/icon/whatsapp.png" class="c-icon">86678 18260</li>   
-                    <li><img src="images/icon/telegram.png" class="c-icon">@anwarmohamedbasha</li>
-                </ul>
-            </div>        
+        <div class="col span_1_of_2 contact-box">
+            <ul>
+                <li><img src="images/icon/map.png" class="contact-icon">Chennai, Tamil Nadu</li>
+                <li><a href="https://www.linkedin.com/in/anwarmohamedbasha/" target="_blank"><img src="images/icon/linkedin.png" class="contact-icon">anwarmohamedbasha</a></li>
+                <li><img src="images/icon/gmail.png" class="contact-icon">anwarmohamedbasha@gmail.com</li>
+                <li><img src="images/icon/whatsapp.png" class="contact-icon">86678 18260</li>   
+                <li><img src="images/icon/telegram.png" class="contact-icon">@anwarmohamedbasha</li>
+            </ul>
+        </div>        
     </div>
 </section>
 
 <section id="footer">
-    <!-- work on it when the social account is created
-     <div class="follow-me">
-        <h2>Follow me on</h2>
-        <p>&nbsp<img src="images/icon/facebook.png" class="f-icon"> <img src="images/icon/twitter.png" class="f-icon">  <img src="images/icon/instagram.png" class="f-icon"></p>
-    </div>
-    -->
-
-        <h1>Thank you</h1>
+    <h1>Thank you</h1>
 </section>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-<script src="script.js"></script>
+
 </body>
 </html>
