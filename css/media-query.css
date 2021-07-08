@@ -188,7 +188,12 @@
     /************************** Navigation Bar **************************/
 
     #navigation-bar ul {
-        padding-left: 15%;
+        padding-left: 5%;
+    }
+
+    #navigation-bar li {
+        font-size: 130%;
+        margin: 10px;        
     }
 
     /************************** About Section **************************/
