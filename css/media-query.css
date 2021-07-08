@@ -177,7 +177,7 @@
     /************************** Contact Section **************************/
 
     #contact-section {
-        padding-bottom: 27%
+        padding-bottom: 15%
     }
     
 
@@ -336,7 +336,7 @@
     /************************** Contact Section **************************/
 
     #contact-section {
-        padding-bottom: 46%
+        padding-bottom: 20%
     }
     
 
@@ -387,8 +387,8 @@
     }
 
     .about-col:last-child {
-        margin-left: -4%;
-        padding-right: 4%;
+        margin-left: 10%;
+        width: 250px;
   
     }
 
