@@ -1,511 +1,367 @@
-/* Big tablets to smaller laptop screens*/
 @media only screen and (max-width:1400px) {
 	html,
 	body {
 		font-size:14px;
 	}
+}
 
-    .sec-head {
-        padding-top: 50px;
-        padding-bottom:50px;
-        text-align: center;
-        font-size: 220%;
+@media only screen and (max-width:1200px) {
+	html,
+	body {
+		font-size:14px;
+	}
+
+    /************************** About Section **************************/
+
+    .about-col:last-child {
+        padding-top: 20%;
     }
 
-    /* intro */
+    /************************** Skills Section **************************/
 
-    .profile {
-        width: 80%;
+    .skill-box {
+       height: 420px;
+        width: 100%;
     }
 
-    .intro-box {
-        margin: 7% 0%;
-        padding: 50px;
+    .skill-head-icon {
+        height: 45px;
+        width: 45px;
+        margin: 5% 40%;
     }
 
-    .intro-box:first-child {
+    .skill-set-space {
+        padding-top: 10%;
+    }
+
+    .skill-set-space li {
+        font-size: 120%;
+    }
+    
+    /************************** Project Section **************************/
+
+    .project-col:first-child {
         padding-left: 8%;
     }
 
-    .intro-box:last-child {
-        margin-left: -8%;
-        padding-top: 14%;
-        padding-right: 0%;
+    .project-col:last-child {
+        padding-top: 4%;
+        margin-left: 0%;
     }
 
-
-    /* skill */
-
-    .icon {
+    .project-icon {
         width: 20px;
         height: 20px;
     }
 
-    .ss-icon {
-        width: 20px;
-        height: 20px;
+    .project-extra-para {
+        margin-left: 49%;
     }
 
-    .bx {
-        height: 380px;
-        width:100%;
-        margin-top: 0%;
-    }
+    /************************** Contact Section **************************/
 
-    .sk-bx {
-        padding-left: 0%;
-    }
-
-    #skill-section {
-        padding-bottom: 5%;
-    }  
-
-    .s-icon {
-        height: 40px;
-        width: 40px;
-        margin-top: 10px;
-        margin-bottom: -10px;
-    }
-
-    .skill-head {
-        font-size:140%;
-    }
-
-    .skill-box li {
-        font-size: 130%;
-        line-height: 180%;
-    }
-
-    .skill-box ul {
-        margin-top: -8%;
-    }
-
-        /* project */
-
-    .proj1-img {
-        height: 80%;
-    }
-
-    .proj-box:first-child {
-        padding-left: 6%;
-    }
-    
-    .proj-box:last-child {
-        margin-left: -8%;
-        padding-right: 1%;
-        padding-top: 7%;
-        padding-bottom: -15%;
-    }
-
-    .proj-box {
-        padding: 50px;
-        margin-top: -3%;
-        margin-bottom: -2%;
-    }
-
-    .para {
-        font-size: 120%;
-        margin-left: 27%;
-        padding-top: -20%;
-        margin-top: 0%;
-        margin-bottom: 2%;
-    }
-
-    .para p {
-    text-align: left;
-    }
-
-    /* contact*/
-
-    .cont-box {
-        padding-top: 2%;
-    }
-
-    .c-icon {
-        width: 20px;
-        height: 20px;
-    }
-
-    /*footer */
-
-    #footer h1 {
-        font-size: 150%;
+    #contact-section {
+    padding-bottom: 12%
     }
 
 }
 
-
-/* Smaller tablets to larger tablet screens*/
-@media only screen and (max-width:1000px) {
+@media only screen and (max-width:1025px) {
 	html,
 	body {
 		font-size:12px;
 	}
 
-    .sec-head {
-        padding-top: 60px;
-        padding-bottom: 60px;
-        font-size: 200%;
+    /************************** About Section **************************/
+
+    .profile-pic {
+        width: 95%;
     }
 
-
-    /* nav */
-
-    .menu {
-        padding-left: 35%;
-    }
-
-    /* intro */
-
-    .profile {
-        width: 90%;
-    }
-
-    .intro-box {
-        margin: 10% 0%;
-    }
-
-    .intro-box:last-child {
-        margin-left: -8%;
-        padding-top: 13%;
-        padding-right: 0%;
-    }
-
-    /* skill*/
-
-    .bx {
-        height: 370px;
-        width:100%;
-        margin-top: 0%;
-    }
-
-    .s-icon {
-        height: 40px;
-        width: 40px;
-        margin-top: 12px;
-        margin-bottom: -5px;
-    }
-
-    .skill-head {
-        font-size:150%;
-    }
-
-    .sk-head-box {
-        margin-bottom: 20%;
-    }
-    
-
-    .skill-box li {
-        font-size: 140%;
-        line-height: 200%;
-    }
-
-    .skill-box ul {
-        margin-top: -13%;
-    }
-
-   /* project */
-
-    .proj1-img {
-        width: 80%;
-    }
-    
-    .proj-box:last-child {
+    .about-col:last-child {
+        padding-top: 17%;
         margin-left: -12%;
-        padding-right: 0%;        
+  
     }
 
-    .para {
-        margin-left: 22%;
-        margin-bottom: 5%;
+    /************************** Skills Section **************************/
+
+    .skill-box {
+        height: 390px;
     }
 
-    /* contact*/
+    /************************** Project Section **************************/
 
-    .c-icon {
-        width: 25px;
-        height: 25px;
-    }    
-
-    .cont-box ul {
-        line-height: 300%;
-        font-size: 140%;
+    .project-img {
+        width: 85%;
     }
+
+    .project-col:last-child {
+        padding-top: 2%;
+        margin-left: -2%;        
+    }
+
+    .project-extra-para {
+        margin-top: -2%;
+    }
+
+    /************************** Contact Section **************************/
 
     #contact-section {
-        padding-bottom: 12%;
-    }
-
-
-}
-
-/* larger phones  to smaller tablet screens*/
-@media only screen and (max-width:800px) {
-	html,
-	body {
-		font-size:10px;
-	}
-
-    .bx {
-        height: 340px;
-        width:100%;
-    }
-
-    .icon {
-        width: 15px;
-        height: 15px;
-    }
-
-    .s-icon {
-        width: 30px;
-        height: 30px;
-        margin-bottom: 0%;
-    }
-
-    .c-icon {
-        width: 20px;
-        height: 20px;
-    }
+        padding-bottom: 19%
+        }
 
 }
 
-/* larger phones  to smaller tablet screens*/
-@media only screen and (max-width:700px) {
+@media only screen and (max-width:770px) {
 	html,
 	body {
-		font-size:10px;
+		font-size:12px;
 	}
 
-    .sec-head {
-        padding-top: 40px;
-        padding-bottom: 40px;
-        font-size: 200%;
-        text-decoration: underline;
-    }
+    /************************** Navigation Bar **************************/
 
-    /* nav */
-
-    .menu {
+    #navigation-bar ul {
         padding-left: 30%;
     }
 
-    /* skill*/
+    /************************** About Section **************************/
 
-    .bx {
-        height: 320px;
-        width: 80%;
-        border-radius: 5%;
-        margin: 2% 7%;
-        padding: 0% 0%;
+    .about-col {
+        padding: 60px;
+        
     }
 
-    .bx:first-child {
-        margin-left: 15%
+    .about-col:first-child {
+        padding-left: 8%;
     }
 
-    .span_1_of_4 {
-        width: 47.6%; 
+    .profile-pic {
+        width: 100%;
     }
 
-    .bx3 {
-        margin-left: 0%;
-    }
-
-
-    .skill-head {
-        font-size:180%;
-    }
-
-    .skill-box li {
-        font-size: 150%;
-    }
-
-    /* project */
-
-    .proj1-img {
-        height: 100%;
-        padding-top: 0%;
-        border-radius: 10%;
-    }
-
-    .proj-box:last-child {
+    .about-col:last-child {
+        padding-top: 15%;
         margin-left: -12%;
-        padding-right: 0%;        
+        padding-right: 0%;
+  
+    }   
+
+    /************************** Skills Section **************************/
+
+    .skill-content-space {
+        padding-left: 0%;
     }
 
-    .para {
-        margin-left: 18%;
-        margin-bottom: 5%;
+    .skill-box {
+        height: 350px;
+        width: 105%;
     }
 
-    /* contact*/
-
-    .c-icon {
-        width: 20px;
-        height: 20px;
-    }    
-
-    .cont-box ul {
-        line-height: 300%;
-        font-size: 120%;
+    .skill-head-icon {
+        height: 35px;
+        width: 35px;
     }
+
+    .skill-set-space li {
+        padding: 0px 15%;
+    }
+
+    /************************** Project Section **************************/
+
+    .project-extra-para {
+        margin-left: 20%;
+        margin-top: 3%;
+    }
+    
+    /************************** Contact Section **************************/
 
     #contact-section {
-        padding-bottom: 12%;
+        padding-bottom: 27%
     }
-
+    
 
 }
 
+@media only screen and (max-width:480px) {
 
-@media only screen and (max-width:700px) {
+    /************************** Navigation Bar **************************/
+
+    #navigation-bar ul {
+        padding-left: 15%;
+    }
+
+    /************************** About Section **************************/
+
+    .about-col {
+        padding: 60px;
+        
+    }
+
+    .about-col:first-child {
+        padding-left: 20%;
+    }
+
+    .profile-pic {
+        width: 90%;
+    }
+
+    .about-col:last-child {
+        margin-top: -25%;
+        margin-left: 0%;
+        padding-right: 3%;
+  
+    }
+    
+    /************************** Skills Section **************************/
+
+    .skill-box {
+        height: 350px;
+        width: 90%;
+        margin-bottom: 5%;
+    }
+
+    .skill-content-space {
+        padding-left: 5%;
+        margin-bottom: 5%;
+    }
+
+    /************************** Project Section **************************/
+
+    .project-col:first-child {
+        padding-left: 25%;
+    }
+
+    .project-img {
+        width: 70%;
+    }
+
+    .project-col:last-child {
+        padding-top: 5%;
+        padding-left: 13%;
+        padding-right: 7%;
+        
+    }
+
+    .project-heading {
+        text-align:center;
+    }
+
+    .project-extra-para {
+        margin-left: 5%;
+        margin-top: 7%;
+    }
+
+    /************************** Contact Section **************************/
+
+    #contact-section {
+        padding-bottom: 46%
+    }
+    
+
+    /************************** Footer Section **************************/
+
+    #footer {
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 38%;
+    }
+
+    #footer h1 {
+        font-size: 180%;
+}
+
+}
+
+@media only screen and (max-width:320px) {
     html,
 	body {
 		font-size:10px;
 	}
 
-    .link:visited,
-    .link:link {
-        background-color: rgb(240, 240, 240);
-        text-decoration: none;
-        font-size: 90%;
-        font-weight: bold;
-        font-family:'Work Sans';
-        color:#555;   
-        padding:8px 25px;
-        border-radius: 30px;
+    /************************** Navigation Bar **************************/
+
+    #navigation-bar ul {
+        padding-left: 5%;
     }
 
-    .link:hover, 
-    .link:active {
-        background-color: rgb(230, 230, 230);
-        color: #000;
-    }
-
-    .para {
-        font-size: 100%;
-    }
-
-    .cont-box ul {
-        line-height: 250%;
-        font-size: 100%;
-    }
-
-}
-
-
-@media only screen and (max-width:500px) {
-	html,
-	body {
-		font-size:10px;
-	}
-
-    .menu {
-        padding-left: 20%;
-    }
-
-    .profile {
-        width: 80%;
-    }
-
-    .intro-box:first-child {
-        padding-top: 3%;
-        padding-left: 20%;
-    }
-
-    .intro-box:last-child {
-        margin-top: -35px;
-        padding-top: 0%;
-        padding-left: 25%;
-        padding-bottom: 5%;
-    }
-
-    .bx {
-        width: 90%;
-    }
-
-    .bx:first-child {
-        margin-left: 9%
-    }
-
-    .span_1_of_2 {
-        width: 100%;
-    }
-
-    .proj1-img {
-        width: 80%;
-    }
-
-    .proj-box:first-child {
-        margin-top: -20px;
-        padding-top: 0%;
-        padding-left: 20%;
-    }
-
-    .proj-box:last-child {
-        padding-top: 0%;
-        padding-left: 25%;
-        padding-bottom: 5%;
-    }
-
-    .para {
-        margin-left: 12%;
-    }
-
-    .bx2 p {
-        padding-bottom: 5%;
-    }
-
-    #project-section {
-        margin-bottom: 0%;
-    }
-
-    .cont-box ul {
+    #navigation-bar li {
         font-size: 120%;
+        margin: 10px;        
     }
 
+    /************************** About Section **************************/
 
-}
-
-
-@media only screen and (max-width:400px) {
-	html,
-	body {
-		font-size:10px;
-	}
-
-    .menu {
-        padding-left: 10%;
+    .about-col {
+        padding: 40px;
+        
     }
 
-    .bx {
-        width: 90%;
+    .about-col:first-child {
+        padding-left: 25%;
     }
 
-    .s-icon {
-        width: 0px;
-        height: 0px;
+    .about-heading {
+        text-align: center;
     }
 
-    .skill-box ul {
-        margin-left: -12%;
+    .about-col:last-child {
+        margin-left: -4%;
+        padding-right: 4%;
+  
     }
 
-    .para {
-        padding-top: 2%;
-        font-size: 90%;
+    .about-btn:visited,
+    .about-btn:link {
+    font-size: 110%;
+    font-weight: bold;
+    padding:10px 20px;
     }
 
-    .cont-box ul {
-        font-size: 130%;
+    /************************** Skills Section **************************/
+
+    .skill-content-space {
+        padding-left: 9%;
     }
 
-    .cont-box:first-child {
-        margin-top: 0%;
-        padding-left: 20%;
+    .skill-col:first-child .skill-box{
+        height: 220px ;
     }
 
-    #footer {
-        padding-left: 40%;
+    .skill-col:nth-last-child(2) .skill-box{
+        height: 220px ;
     }
+
+    .skill-head-space {
+        margin-bottom: 6%; 
+    }
+
+    .skill-head-icon {
+        height: 30px;
+        width: 30px;
+    }
+
+    .skill-set-space li {
+        font-size: 150%;
+        padding: 0px 25%;
+    }
+
+    /************************** Project Section **************************/
+
+    .project-img {
+        width: 80%;
+    }
+
+    .project-col:first-child {
+        margin-top: -7%;
+        padding-left: 15%;
+    }
+
+    .project-btn:visited,
+    .project-btn:link {
+    font-size: 110%;
+    font-weight: bold;
+    padding:10px 20px;
+    }
+
 }
