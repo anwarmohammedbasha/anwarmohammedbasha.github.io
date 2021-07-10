@@ -121,6 +121,14 @@
 
     /************************** Navigation Bar **************************/
 
+    #navigation-bar {
+        position:fixed;
+    }
+
+    #navigation-bar ul {
+        width: 100%;
+    }
+
     #navigation-bar ul {
         padding-left: 30%;
     }
@@ -188,6 +196,14 @@
 
 
     /************************** Navigation Bar **************************/
+
+    #navigation-bar {
+        position:fixed;
+    }
+
+    #navigation-bar ul {
+        width: 100%;
+    }
 
     #navigation-bar ul {
         padding-left: 25%;
@@ -258,6 +274,14 @@
 @media only screen and (max-width:480px) {
 
     /************************** Navigation Bar **************************/
+
+    #navigation-bar {
+        position:fixed;
+    }
+
+    #navigation-bar ul {
+        width: 100%;
+    }
 
     #navigation-bar ul {
         padding-left: 15%;
@@ -362,6 +386,14 @@
 
     /************************** Navigation Bar **************************/
 
+    #navigation-bar {
+        position:fixed;
+    }
+
+    #navigation-bar ul {
+        width: 100%;
+    }
+
     #navigation-bar ul {
         padding-left: 5%;
     }
@@ -447,12 +479,18 @@
 
 }
 
+
 @media only screen and (max-width:480px) {
 
     /************************** Navigation Bar **************************/
 
+    #navigation-bar {
+        position:fixed;
+    }
+
     #navigation-bar ul {
         padding-left: 15%;
+        width: 100%;
     }
 
     #navigation-bar li {
